@@ -55,3 +55,10 @@ After initialisation logon to the zatoweb, the vagrant file creates the base clu
 
 After starting you can access the admin interface from your host machine at http://localhost:8183 as the port has been forwarded
 
+For convenience the files used in the tutorial are available within vagrant from 
+```
+/vagrant/services/
+```
+
+these can be used for hot deployment throughout the tutorials
+
