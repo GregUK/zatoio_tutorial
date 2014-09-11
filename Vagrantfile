@@ -27,7 +27,7 @@ $RABBIT_SETUP_SCRIPT = <<SCRIPT
 SCRIPT
 
 $ZATO_SETUP_SCRIPT = <<SCRIPT
-    sudo apt-get -y install apt-transport-https python-software-properties software-properties-common curl redis-server
+    sudo apt-get -y install apt-transport-https python-software-properties software-properties-common curl redis-server python-zmq
     echo "adding zato apt repo"
     curl -s https://zato.io/repo/zato-0CBD7F72.pgp.asc | sudo apt-key add -
     sudo apt-add-repository https://zato.io/repo/stable/ubuntu
